@@ -1,0 +1,54 @@
+#%RAML 1.0
+title: ConsumeSOAPService
+types: 
+  num: !include dataType.raml
+
+/calculator:
+  /add:
+    post:
+      body:
+        application/json:
+          properties:
+          type: num
+      responses:
+        200:
+          body:
+            application/json:
+              type: number
+              example: 4
+  /subtract:
+    post:
+      body:
+        application/json:
+          properties:
+          type: num
+      responses:
+        200:
+          body:
+            application/json:
+              type: number
+              example: 6
+                
+  /divide:
+    post:
+      body:
+        application/json:
+          properties:
+          type: num
+      responses:
+        200:
+          body:
+           application/json:
+             type: number
+             example: 1
+  /multiply:
+    post:
+      body:
+        application/json:
+          properties:
+          type: num
+      responses:
+        200:
+          body:
+            application/json:
+              example: 9

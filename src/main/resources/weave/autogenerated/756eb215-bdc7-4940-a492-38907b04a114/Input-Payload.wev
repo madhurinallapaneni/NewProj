@@ -1,0 +1,11 @@
+%dw 2.0
+
+type auto_756eb215_bdc7_4940_a492_38907b04a114_Input_Payload = {
+  "type": {
+    number1: Number, 
+    number2: Number, 
+    _?: Any
+  }, 
+  _?: Any
+}
+
