@@ -34,6 +34,7 @@ ns ns0 http://tempuri.org/
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="404f2c54-2b69-462d-a91e-2d93fca1299c" message="#[payload]"/>
+		<logger level="INFO" doc:name="Logger" doc:id="0b6d2008-110a-438c-afae-d82ba86c7960" message="Addition is done"/>
 	
 	
 	</flow>
